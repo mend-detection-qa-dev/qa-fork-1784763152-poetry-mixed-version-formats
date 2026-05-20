@@ -47,7 +47,7 @@
       },
 
       "expected_dependency_pairs": [
-        {"artifactId": "requests", "version": "2.34.2},
+        {"artifactId": "requests", "version": "2.34.2"},
         {"artifactId": "pdfminer-six", "version": "20251230"},
         {"artifactId": "pillow", "version": "10.3.0"},
         {"artifactId": "httpx", "version": "0.27.2"}
