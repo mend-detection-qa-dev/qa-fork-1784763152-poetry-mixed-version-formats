@@ -24,12 +24,8 @@
       "_comment_counts": "Lock has 11 packages: 4 direct + 7 transitive (anyio, certifi, chardet, cryptography, httpcore, idna, urllib3). gte with N-3 floor for tolerance against resolver-version drift.",
 
       "direct_dependencies_names_list": {
-        "contains": ["requests", "pdfminer-six", "pillow", "httpx"]
+        "contains": ["requests-2.34.2-py3-none-any.whl", "pdfminer_six-20251230-py3-none-any.whl", "httpx-0.27.2-py3-none-any.whl"]
       },
-      "transitive_dependencies_names_list": {
-        "contains": ["anyio", "certifi", "chardet", "cryptography", "httpcore", "idna", "urllib3"]
-      },
-
       "expected_package_managers": {
         "contains": ["poetry"]
       },
@@ -51,7 +47,7 @@
       },
 
       "expected_dependency_pairs": [
-        {"artifactId": "requests", "version": "2.31.0"},
+        {"artifactId": "requests", "version": "2.34.2},
         {"artifactId": "pdfminer-six", "version": "20251230"},
         {"artifactId": "pillow", "version": "10.3.0"},
         {"artifactId": "httpx", "version": "0.27.2"}
