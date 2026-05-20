@@ -7,13 +7,13 @@ authors = ["mend-detection-qa"]
 [tool.poetry.dependencies]
 python = "^3.10"
 # semver (3-part)
-requests = "^2.31"
+requests = "2.34.2"
 # calendar version — no dots in version segment of whl filename
 "pdfminer.six" = "20251230"
 # two-segment version
 Pillow = "10.3.0"
 # standard semver pre-release candidate
-httpx = "^0.27"
+httpx = "0.27.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
